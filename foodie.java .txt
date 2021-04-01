@@ -1,0 +1,25 @@
+import java.io.*;
+class one
+   { 
+       DataInputStream in = new DataInputStream(System.in);  
+       one()
+           {
+                System.out.println("\n           Welcome  to Shevaroys\n            Your home  in hills");
+            }
+       public void intro() 
+           {
+              System.out.println("             Select Food Items\n\n   Find the best around you with Shevaroys\n  and choose your favourite  food from your\n          favourite restaturant");   
+               System.out.println("\n           Order food you like\n\n        order Bryani,Pizza,Masala Dosa,\n      Burgers,Lassi,Cofee,Gulab Jamun,and\n         get more exciting offers");
+               System.out.println("\n          Deliver to your home\n\n     Delivery Partners trained in the best\n    hygiene protocol and have been equipped \n                with masks");
+           } 
+      
+   }
+
+class foodie
+   {
+        public static void main(String[] args)
+            {
+                   one obj = new one();
+                   obj.intro();
+            }
+    }
